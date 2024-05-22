@@ -22,12 +22,5 @@ public class ConexionMySQL {
         }
         return conexion;
     }
-    
-    public void cerrarConexion(){
-        try{
-            this.conexion.close();
-        }catch(SQLException ex){
-            
-        }
-    }
+
 }
